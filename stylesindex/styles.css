@@ -1,0 +1,293 @@
+/* Vista movil */
+a:link {
+    text-decoration: none;
+}
+.webAreas {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 10% 50% 20%;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Cabecera*/
+
+body {
+    background-image :url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg);
+    background-size: contain;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:medium;
+    color: #000000;
+}
+
+header {
+    background-color: #ff0000;
+    display: grid;
+    grid-area: header;
+}
+.tittle {
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Cuerpo de pagina*/
+
+main nav {
+    display: grid;
+    grid-area: main;
+}
+.optionOne {
+    background-color: #ffff00;
+    border-radius: 05px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+.optionTwo {
+    background-color: rgb(0, 206, 0);
+    border-radius: 05px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+.optionThree {
+    background-color: rgb(184, 0, 184);
+    border-radius: 05px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+} 
+
+/*Terminos y condiciones*/
+.tycOverflow {
+    overflow: auto;
+}
+
+/*Video presentacion*/
+article {
+    display: none;
+}
+
+/*Pie de pagina*/
+
+section {
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+ul li {
+    grid-area: footer;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.fOptionone {
+    background-color: #ff0000;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+.fOptiontwo {
+    background-color: rgb(108, 212, 4);
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+.fOptionthree {
+    background-color: #8a2be2;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+.fOptionfour {
+    background-color: #e66f1b;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+.fOptionfive {
+    background-color: #ff1493;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+/* vista desktop*/
+@media screen and (min-width: 1200px) {
+    a:link {
+        text-decoration: none;
+    }
+    .webAreas {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "main article article"
+        "main article article"
+        "footer footer footer";
+        grid-template-rows: 10% 75% 75% 50%;
+        grid-template-columns: 1fr 1fr auto ;
+        height: 100vh;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    /*Cabecera*/
+    
+    body {
+        background-image :url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg);
+        background-size:auto;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size:medium;
+        color: #000000;
+    }
+    
+    header {
+        background-color: #ff0000;
+        display: grid;
+        grid-area: header;
+        height:fit-content;
+        
+    }
+    .tittle {
+        color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*Cuerpo de pagina*/
+    
+    main nav {
+        display: grid;
+        grid-area: main;
+    }
+    .optionOne {
+        background-color: #ffff00;
+        border-radius: 05px;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    .optionTwo {
+        background-color: rgb(0, 206, 0);
+        border-radius: 05px;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    .optionThree {
+        background-color: rgb(184, 0, 184);
+        border-radius: 05px;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    /*Video presentacion*/
+article {
+    display: flex;
+    grid-area: article;
+}
+#tyc {
+    display: grid;
+    grid-area: article ;
+}
+    /*Pie de pagina*/
+    .sectyc {
+        display: grid;
+        grid-area: footer;
+        
+    }
+    #sectyc {
+        display: none;
+        grid-area: footer;
+        
+    }
+    section {
+        justify-content: center;
+        text-align: center;
+        color: #000000;
+        grid-area: footer;
+        width: 185%;
+        display: flex;
+    }
+    
+    ul li {
+        grid-area: footer;
+        padding: 40px;
+        margin: 10px;
+        border-radius: 25px;
+    }
+    #fOptiononetyc {
+        width: 75%;
+        grid-area: footer;
+    }
+    #fOptiontwotyc {
+        width: 75%;
+        grid-area: footer;
+    }
+    #fOptionthreetyc {
+        width: 75%;
+        grid-area: footer;
+    }
+    #fOptionfourtyc {
+        width: 75%;
+        grid-area: footer;
+    }
+    #fOptionfivetyc {
+        width: 75%;
+        grid-area: footer;
+    }
+
+
+    .fOptionone {
+        background-color: #ff0000;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 170%;
+    }
+    .fOptiontwo {
+        background-color: rgb(108, 212, 4);
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 170%;
+    }
+    .fOptionthree {
+        background-color: #8a2be2;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 170%;
+    }
+    .fOptionfour {
+        background-color: #e66f1b;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        display:flex;
+        width: 170%;
+    }
+    .fOptionfive {
+        background-color: #ff1493;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 170%;
+}
+}
