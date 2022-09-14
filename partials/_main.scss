@@ -1,0 +1,67 @@
+/*mobile view*/
+
+@media screen and (max-width: 420px) {
+    .suc 
+    {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 05px;
+    }
+    .video {
+        display: none;
+    }
+}
+.tableProd {
+    padding: 20px;
+    margin: 0px;
+}
+.itemtHead {
+    background-color: rgb(255, 151, 53);
+}
+.itemt{
+    background-color:rgb(209, 255, 204);
+
+}
+.itemtYes {
+    background-color: rgb(0, 189, 0);
+}
+.itemtNo {
+    background-color: rgb(255, 82, 82);
+}
+.imgProd {
+    display: inline-block;
+    display: flex;
+}
+.videoStory {
+    justify-content: center;
+    width: 365px;
+}
+/*destktop view*/
+@media screen and (min-width: 1200px) {
+    a:hover {
+        color: rgb(255, 0, 0);
+        }
+        .lead form {
+            margin: 0%;
+            padding: 0%;
+            width: 0%;
+            height: 0%;
+        }
+        .suc {
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 05px;
+        }
+        
+        .tableProd {
+            padding: 20px;
+            margin: 0px;
+        }
+        .button {
+            background-color: rgb(248, 0, 0);
+        }
+        .videoStory {
+            justify-content: center;
+            display: flex;
+        }
+}

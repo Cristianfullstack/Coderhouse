@@ -1,0 +1,49 @@
+/*mobile view*/
+
+@media screen and (max-width: 420px) {
+            nav {
+                background-image: linear-gradient(to bottom,rgb(231, 10, 10),rgb(255, 255, 255));
+            }
+            .itemyellow {
+                background-color:rgb(98, 245, 98)
+            }
+            .itemgreen {
+                background-color: rgb(171, 245, 98);
+            }
+            .itemblack {
+                background-color: rgb(98, 245, 245);
+                color: rgb(255, 255, 255);
+            }
+            .itemviolet {
+                background-color: rgb(171, 98, 245);
+            }
+            .itemwhite {
+                background-color: rgb(245, 250, 255)
+            }
+        }
+
+/*destktop view*/
+@media screen and (min-width:1200px) {
+    .colornav {
+        background-image: linear-gradient(to bottom,rgb(255, 0, 0),rgb(255, 255, 255)) ;
+        a:hover {
+            color: rgb(100, 92, 92);
+            }
+    }
+    .itemyellow {
+        background-color:rgb(98, 245, 98); 
+    }
+    .itemgreen {
+        background-color: rgb(171, 245, 98);
+    }
+    .itemblack {
+        background-color: rgb(98, 245, 245);
+        color: rgb(255, 255, 255);
+    }
+    .itemviolet {
+        background-color: rgb(171, 98, 245);
+    }
+    .itemwhite {
+        background-color: rgb(245, 250, 255)
+    }
+}

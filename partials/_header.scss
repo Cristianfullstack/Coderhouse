@@ -1,0 +1,28 @@
+/*mobile view*/
+
+@media screen and (max-width: 420px) {
+    .tittle {
+        background-image:linear-gradient(to bottom, rgb(221, 17, 17),rgb(231, 10, 10) );
+        color: rgb(255, 255, 255);
+        padding: 02%;
+        margin: 0%;
+    }
+    .colornav {
+        .colornav {
+            background-image: linear-gradient(to bottom,rgb(231, 10, 10),rgb(255, 255, 255)) ;
+        }
+}
+}
+
+/*destktop view*/
+@media screen and (min-width: 1200px) {
+}
+.tittle {
+    background-image:linear-gradient(to bottom, rgb(39, 39, 39),rgb(255, 0, 0) );
+    color: rgb(255, 255, 255);
+    padding: 02%;
+    margin: 0%;
+}
+a:hover {
+color: rgb(255, 0, 0);
+}

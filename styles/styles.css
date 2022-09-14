@@ -1,1 +1,379 @@
-/*# sourceMappingURL=styles.css.map */
+/*partials*/ /*mobile view*/
+@media screen and (max-width: 420px) {
+  .tittle {
+    background-image: linear-gradient(to bottom, rgb(221, 17, 17), rgb(231, 10, 10));
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 0%;
+  }
+  .colornav .colornav {
+    background-image: linear-gradient(to bottom, rgb(231, 10, 10), rgb(255, 255, 255));
+  }
+}
+/*destktop view*/
+.tittle {
+  background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(255, 0, 0));
+  color: rgb(255, 255, 255);
+  padding: 2%;
+  margin: 0%;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+/*general view*/
+@media screen and (min-width: 320px) {
+  .fondo {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg);
+    background-size: contain;
+  }
+  .fuente {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .colorFoo {
+    background-image: linear-gradient(to top, rgb(95, 95, 95), rgb(255, 255, 255));
+  }
+  .imgFo {
+    display: inline-block;
+    margin: 3%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #extTittle {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(95, 95, 95));
+    margin-block: 0%;
+  }
+  .footerClass {
+    padding: 2%;
+  }
+}
+/*mobile view*/
+@media screen and (max-width: 420px) {
+  nav {
+    background-image: linear-gradient(to bottom, rgb(231, 10, 10), rgb(255, 255, 255));
+  }
+  .itemyellow {
+    background-color: rgb(98, 245, 98);
+  }
+  .itemgreen {
+    background-color: rgb(171, 245, 98);
+  }
+  .itemblack {
+    background-color: rgb(98, 245, 245);
+    color: rgb(255, 255, 255);
+  }
+  .itemviolet {
+    background-color: rgb(171, 98, 245);
+  }
+  .itemwhite {
+    background-color: rgb(245, 250, 255);
+  }
+}
+/*destktop view*/
+@media screen and (min-width: 1200px) {
+  .colornav {
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(255, 255, 255));
+  }
+  .colornav a:hover {
+    color: rgb(100, 92, 92);
+  }
+  .itemyellow {
+    background-color: rgb(98, 245, 98);
+  }
+  .itemgreen {
+    background-color: rgb(171, 245, 98);
+  }
+  .itemblack {
+    background-color: rgb(98, 245, 245);
+    color: rgb(255, 255, 255);
+  }
+  .itemviolet {
+    background-color: rgb(171, 98, 245);
+  }
+  .itemwhite {
+    background-color: rgb(245, 250, 255);
+  }
+}
+/*mobile view*/
+@media screen and (max-width: 420px) {
+  .suc {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .video {
+    display: none;
+  }
+}
+.tableProd {
+  padding: 20px;
+  margin: 0px;
+}
+
+.itemtHead {
+  background-color: rgb(255, 151, 53);
+}
+
+.itemt {
+  background-color: rgb(209, 255, 204);
+}
+
+.itemtYes {
+  background-color: rgb(0, 189, 0);
+}
+
+.itemtNo {
+  background-color: rgb(255, 82, 82);
+}
+
+.imgProd {
+  display: inline-block;
+  display: flex;
+}
+
+.videoStory {
+  justify-content: center;
+  width: 365px;
+}
+
+/*destktop view*/
+@media screen and (min-width: 1200px) {
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  .lead form {
+    margin: 0%;
+    padding: 0%;
+    width: 0%;
+    height: 0%;
+  }
+  .suc {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .tableProd {
+    padding: 20px;
+    margin: 0px;
+  }
+  .button {
+    background-color: rgb(248, 0, 0);
+  }
+  .videoStory {
+    justify-content: center;
+    display: flex;
+  }
+}
+/*mobile view*/
+@media screen and (max-width: 420px) {
+  .imgFo {
+    display: inline-block;
+    margin: 3%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ext1 {
+    background-color: rgb(255, 153, 0);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext2 {
+    background-color: rgb(255, 60, 0);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext3 {
+    background-color: rgb(145, 63, 39);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext4 {
+    background-color: rgb(208, 216, 85);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext5 {
+    background-color: rgb(255, 161, 133);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext6 {
+    background-color: rgb(0, 247, 255);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext7 {
+    background-color: rgb(207, 15, 245);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext8 {
+    background-color: rgb(158, 149, 97);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .colortextFo {
+    color: rgb(252, 252, 252);
+  }
+  .watermark {
+    color: rgba(54, 54, 54, 0.726);
+  }
+}
+/*desktop view*/
+@media screen and (min-width: 1200px) {
+  .footerClass {
+    padding: 2%;
+  }
+  .colortextFo {
+    color: rgb(252, 252, 252);
+  }
+  .ext1 {
+    background-color: rgb(255, 153, 0);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext2 {
+    background-color: rgb(255, 60, 0);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext3 {
+    background-color: rgb(145, 63, 39);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext4 {
+    background-color: rgb(208, 216, 85);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext5 {
+    background-color: rgb(255, 161, 133);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext6 {
+    background-color: rgb(0, 247, 255);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext7 {
+    background-color: rgb(207, 15, 245);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .ext8 {
+    background-color: rgb(158, 149, 97);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25%;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    display: inline;
+  }
+  .watermark {
+    color: rgba(54, 54, 54, 0.726);
+  }
+}
+/*mobile view*/
+@media screen and (min-width: 420px) {
+  .formContact {
+    background-image: linear-gradient(to bottom, rgb(231, 10, 10), rgb(255, 255, 255));
+  }
+}/*# sourceMappingURL=styles.css.map */
