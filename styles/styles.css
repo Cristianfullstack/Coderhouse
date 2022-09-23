@@ -12,14 +12,13 @@
 }
 /*destktop view*/
 .tittle {
-  background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(255, 0, 0));
+  background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(87, 96, 110));
   color: rgb(255, 255, 255);
   padding: 2%;
   margin: 0%;
 }
-
-a:hover {
-  color: rgb(255, 0, 0);
+.tittle a:hover {
+  color: rgb(255, 17, 0);
 }
 
 /*general view*/
@@ -75,26 +74,30 @@ a:hover {
 /*destktop view*/
 @media screen and (min-width: 1200px) {
   .colornav {
-    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, #6B7787, #2E333B);
   }
   .colornav a:hover {
-    color: rgb(100, 92, 92);
+    color: rgb(190, 10, 10);
   }
   .itemyellow {
-    background-color: rgb(98, 245, 98);
+    background-image: linear-gradient(to top, rgb(39, 39, 39), #6B7787);
+    color: rgb(221, 202, 202);
   }
   .itemgreen {
-    background-color: rgb(171, 245, 98);
+    background-image: linear-gradient(to top, rgb(39, 39, 39), #6B7787);
+    color: rgb(221, 202, 202);
   }
   .itemblack {
-    background-color: rgb(98, 245, 245);
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, rgb(39, 39, 39), #6B7787);
+    color: rgb(221, 202, 202);
   }
   .itemviolet {
-    background-color: rgb(171, 98, 245);
+    background-image: linear-gradient(to top, rgb(39, 39, 39), #6B7787);
+    color: rgb(221, 202, 202);
   }
   .itemwhite {
-    background-color: rgb(245, 250, 255);
+    background-image: linear-gradient(to top, rgb(39, 39, 39), #6B7787);
+    color: rgb(221, 202, 202);
   }
 }
 /*mobile view*/
@@ -151,7 +154,7 @@ a:hover {
     height: 0%;
   }
   .suc {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(34, 31, 31);
     color: rgb(255, 255, 255);
     border-radius: 5px;
   }
@@ -176,8 +179,13 @@ a:hover {
     width: -moz-fit-content;
     width: fit-content;
   }
+  .footerClass {
+    display: flex;
+    flex-direction: column;
+  }
   .ext1 {
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -188,7 +196,8 @@ a:hover {
     display: inline;
   }
   .ext2 {
-    background-color: rgb(255, 60, 0);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -199,7 +208,8 @@ a:hover {
     display: inline;
   }
   .ext3 {
-    background-color: rgb(145, 63, 39);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -210,7 +220,8 @@ a:hover {
     display: inline;
   }
   .ext4 {
-    background-color: rgb(208, 216, 85);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -221,7 +232,8 @@ a:hover {
     display: inline;
   }
   .ext5 {
-    background-color: rgb(255, 161, 133);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -232,7 +244,8 @@ a:hover {
     display: inline;
   }
   .ext6 {
-    background-color: rgb(0, 247, 255);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -243,7 +256,8 @@ a:hover {
     display: inline;
   }
   .ext7 {
-    background-color: rgb(207, 15, 245);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -254,7 +268,8 @@ a:hover {
     display: inline;
   }
   .ext8 {
-    background-color: rgb(158, 149, 97);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -280,7 +295,8 @@ a:hover {
     color: rgb(252, 252, 252);
   }
   .ext1 {
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -291,7 +307,8 @@ a:hover {
     display: inline;
   }
   .ext2 {
-    background-color: rgb(255, 60, 0);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -302,7 +319,8 @@ a:hover {
     display: inline;
   }
   .ext3 {
-    background-color: rgb(145, 63, 39);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -313,7 +331,8 @@ a:hover {
     display: inline;
   }
   .ext4 {
-    background-color: rgb(208, 216, 85);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -324,7 +343,8 @@ a:hover {
     display: inline;
   }
   .ext5 {
-    background-color: rgb(255, 161, 133);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -335,7 +355,8 @@ a:hover {
     display: inline;
   }
   .ext6 {
-    background-color: rgb(0, 247, 255);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -346,7 +367,8 @@ a:hover {
     display: inline;
   }
   .ext7 {
-    background-color: rgb(207, 15, 245);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -357,7 +379,8 @@ a:hover {
     display: inline;
   }
   .ext8 {
-    background-color: rgb(158, 149, 97);
+    background-color: rgb(54, 53, 51);
+    color: rgb(245, 255, 255);
     margin: 1%;
     padding: 1%;
     border-radius: 25%;
@@ -374,6 +397,23 @@ a:hover {
 /*mobile view*/
 @media screen and (min-width: 420px) {
   .formContact {
-    background-image: linear-gradient(to bottom, rgb(231, 10, 10), rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, rgb(95, 95, 95), rgb(255, 255, 255));
+    padding-top: 0%;
+  }
+  #contactSub {
+    background-image: linear-gradient(to top, rgb(95, 95, 95), rgb(255, 255, 255));
+    height: 30px;
+    text-align: center;
+    padding-bottom: 0%;
+  }
+  form label {
+    justify-content: center;
+    display: flex;
+  }
+  form {
+    justify-content: center;
+  }
+  .imputs {
+    display: flex;
   }
 }/*# sourceMappingURL=styles.css.map */

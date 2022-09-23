@@ -1,9 +1,24 @@
 /*mobile view*/ 
 @media screen and (min-width: 420px) {
     .formContact {
-        background-image:linear-gradient(to bottom,rgb(231, 10, 10),rgb(255, 255, 255)) ;
+        background-image:linear-gradient(to bottom,rgb(95, 95, 95), rgb(255, 255, 255)) ;
+        padding-top: 0%;
+        }
         
+        #contactSub {
+            background-image:linear-gradient(to top,rgb(95, 95, 95), rgb(255, 255, 255)) ;
+            height: 30px;
+            text-align: center;
+            padding-bottom: 0%;
+            }
+            form label{
+                justify-content: center;
+                display: flex;
+            }
+            form {
+                justify-content: center;
+            }
+            .imputs {
+                display: flex;
+            }
     }
-    
-    
-}
