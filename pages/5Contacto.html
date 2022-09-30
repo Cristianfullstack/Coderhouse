@@ -56,33 +56,42 @@
       </div>
     </nav>
 
-   <article class="subtittle">
-    <h2 id="contactSub" class="lead">Comunicate para hacer tu reserva. ¡No olvides mencionar cuantas personas son!</h2>
-   </article>
-
 <!--Formulario de contacto-->
-    <section class="form">
-      <form class="formContact">
-        <label for="nombre">Nombre</label>
-        <input class="imputs" id="nombre" type="text" placeholder="Ingresa tu nombre">
+    <form class="formContact">
+      <article class="textCenter">
+        <p class="tittle">Comunicate para hacer tu reserva. ¡No olvides mencionar cuantas personas son!</p>
+       </article>
+        <label id="extTittle" for="nombre">Nombre</label>
+      <section class="imputs">
+          <input class="imputs" id="nombre" type="text" placeholder="Ingresa tu nombre">
+      </section>
+      <br>
+        <label id="extTittle" for="apellido">Apellido</label> 
+      <section class="imputs">
+        <input class="imputs" id="nombre" type="text" placeholder="Ingresa tu apellido">
+      </section>
+      
         <br>
-        <label for="apellido">Apellido</label> 
-        <input type="apellido" placeholder="Ingresa tu apellido">
-        <br>
-        ¿Algun Menu en especial?
-        <br>
+        <label id="extTittle">¿Algun menu en especial?</label>
+      <section class="imputs">
         <textarea placeholder="Escribi aca que tipo de menu tienen de preferencia y si prefieren comida vegetariana asi te ofrecemos una mejor experiencia para vos y tu familia o amigos en la mesa" cols="58" rows="5"></textarea>
-        <br />
-        <label for="telefono">Telefono</label>
-        <br />
+      </section>
+      <br>
+        <label id="extTittle" for="telefono">Telefono</label>
+      <section class="imputs">
         <input id="telefono" type="tel" >
-        <br />
-        <label for="email">Email</label>
-        <br>
+      </section>
+      <br>
+        <label id="extTittle" for="email">Email</label>
+      <section class="imputs">
         <input id="email" type="email">
-        <br />
-        <label for="personas">Indicar cantidad de comenzales</label>
-        <select id="personas">
+      </section>
+      <br>
+      <section id="extTittle">
+        <label id="extTittle" for="personas">Indicar cantidad de comenzales</label>
+      <br>
+      <article id="jus">
+        <select class="imputs" id="personas">
             <option disabled="personas">Cuantos son</option>
             <option>1</option>
             <option>2</option>
@@ -90,14 +99,23 @@
             <option>4</option>
             <option>5</option>
             <option>+6</option>
-        </select>
-        <br />
-        Si presiona "Enviar" Quiere decir que acepta nuestros <a href="./6privacity polity.html">Terminos y condiciones</a>
-        <br>
-        <button class="button">Enviar</button>
         
+        </select>
+      </article>
+      </section>
+        <br />
+      <section class="imputs">
+        <label id="extTittle">
+        Si presiona "Enviar" Quiere decir que acepta nuestros <a href="./6privacy polity.html">Terminos y condiciones</a>
+        </label>
+      </section>
+        <br>
+      <section class="imputs">
+        <button id="extTittle" class="sendItem">
+          <a href="./7Reserva.html" style="text-decoration:none">Enviar</a>
+        </button>
+      </section>  
     </form>
-  </section>
     <br>
 
 <!--Pie de pagina-->
@@ -153,7 +171,7 @@
        <a href="https://www.parrilladonjulio.com.ar/" class="ext5">Parrilla Don Julio</a>
        <a href="https://www.coca-cola.com.ar/" class="ext6">Coca Cola</a>
        <a href="https://www.pedidosya.com.ar" class="ext7">Pedidos Ya!</a>
-       <a href="./6privacity polity.html" class="ext8">Terminos y condiciones</a>
+       <a href="./6privacy polity.html" class="ext8">Terminos y condiciones</a>
    </section>
 
 <!--Watermark-->

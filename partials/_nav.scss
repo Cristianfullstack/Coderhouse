@@ -1,31 +1,8 @@
 /*mobile view*/
 
 @media screen and (max-width: 420px) {
-            nav {
-                background-image: linear-gradient(to bottom,rgb(231, 10, 10),rgb(255, 255, 255));
-            }
-            .itemyellow {
-                background-color:rgb(98, 245, 98)
-            }
-            .itemgreen {
-                background-color: rgb(171, 245, 98);
-            }
-            .itemblack {
-                background-color: rgb(98, 245, 245);
-                color: rgb(255, 255, 255);
-            }
-            .itemviolet {
-                background-color: rgb(171, 98, 245);
-            }
-            .itemwhite {
-                background-color: rgb(245, 250, 255)
-            }
-        }
-
-/*destktop view*/
-@media screen and (min-width:1200px) {
     .colornav {
-        background-image: linear-gradient(to bottom,#6B7787,#2E333B);
+        background-image: linear-gradient(to bottom,rgb(107, 119, 135),rgb(46, 51, 59));
         a:hover {
             color: rgb(190, 10, 10);
             }
@@ -48,6 +25,37 @@
     }
     .itemwhite {
         background-image: linear-gradient(to top,rgb(39, 39, 39),#6B7787); 
+        color: rgb(221, 202, 202);
+    }
+}
+
+
+/*destktop view*/
+@media screen and (min-width:1200px) {
+    .colornav {
+        background-image: linear-gradient(to bottom,rgb(107, 119, 135),rgb(46, 51, 59));
+        a:hover {
+            color: rgb(190, 10, 10);
+            }
+    }
+    .itemyellow {
+        background-image: linear-gradient(to top,rgb(39, 39, 39),rgb(107, 119, 135)); 
+        color: rgb(221, 202, 202);
+    }
+    .itemgreen {
+        background-image: linear-gradient(to top,rgb(39, 39, 39),rgb(107, 119, 135)); 
+        color: rgb(221, 202, 202 );
+    }
+    .itemblack {
+        background-image: linear-gradient(to top,rgb(39, 39, 39),rgb(107, 119, 135)); 
+        color: rgb(221, 202, 202);
+    }
+    .itemviolet {
+        background-image: linear-gradient(to top,rgb(39, 39, 39),rgb(107, 119, 135)); 
+        color: rgb(221, 202, 202);
+    }
+    .itemwhite {
+        background-image: linear-gradient(to top,rgb(39, 39, 39),rgb(107, 119, 135)); 
         color: rgb(221, 202, 202);
     }
 }
