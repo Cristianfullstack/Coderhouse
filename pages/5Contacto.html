@@ -9,17 +9,17 @@
 </head>
 <body>
 
-   <!-- CSS only -->
+<!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
       <link rel="stylesheet" href="./styles/styles.css">
       </head>
    
-   <!--Cabecera-->
-   <header>
+<!--Cabecera-->
+    <header>
       <nav class="tittle">
         <a href="../index.html" style="text-decoration:none"><h1>Comidas Ya</h1></a>
       </nav>
-      </header>
+    </header>
    
    <!--Navbar-->
    <nav class="navbar navbar-expand-lg colornav">
@@ -56,54 +56,48 @@
       </div>
     </nav>
 
-<!--Formulario de contacto-->
+<!--Cuerpo de pagina - Formulario de contacto-->
+  <main id="formContact">
     <form class="formContact">
       <article class="textCenter">
-        <p class="tittle">Comunicate para hacer tu reserva. ¡No olvides mencionar cuantas personas son!</p>
+        <p class="tittle">Comunicate para hacer tu reserva. 
+          <br>
+          ¡No olvides mencionar cuantas personas son!</p>
        </article>
         <label id="extTittle" for="nombre">Nombre</label>
       <section class="imputs">
           <input class="imputs" id="nombre" type="text" placeholder="Ingresa tu nombre">
       </section>
-      <br>
         <label id="extTittle" for="apellido">Apellido</label> 
       <section class="imputs">
         <input class="imputs" id="nombre" type="text" placeholder="Ingresa tu apellido">
       </section>
-      
-        <br>
         <label id="extTittle">¿Algun menu en especial?</label>
       <section class="imputs">
         <textarea placeholder="Escribi aca que tipo de menu tienen de preferencia y si prefieren comida vegetariana asi te ofrecemos una mejor experiencia para vos y tu familia o amigos en la mesa" cols="58" rows="5"></textarea>
       </section>
-      <br>
         <label id="extTittle" for="telefono">Telefono</label>
       <section class="imputs">
         <input id="telefono" type="tel" >
       </section>
-      <br>
         <label id="extTittle" for="email">Email</label>
       <section class="imputs">
         <input id="email" type="email">
       </section>
-      <br>
-      <section id="extTittle">
+    <section id="extTittle">
         <label id="extTittle" for="personas">Indicar cantidad de comenzales</label>
-      <br>
       <article id="jus">
-        <select class="imputs" id="personas">
-            <option disabled="personas">Cuantos son</option>
+        <select id="personas">
+            <option disabled="personas">¿Cuantos son?</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
             <option>+6</option>
-        
         </select>
       </article>
-      </section>
-        <br />
+    </section>
       <section class="imputs">
         <label id="extTittle">
         Si presiona "Enviar" Quiere decir que acepta nuestros <a href="./6privacy polity.html">Terminos y condiciones</a>
@@ -117,6 +111,7 @@
       </section>  
     </form>
     <br>
+  </main>
 
 <!--Pie de pagina-->
 <footer class="colorFoo">

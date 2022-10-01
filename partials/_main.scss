@@ -43,7 +43,10 @@
 /*destktop view*/
 @media screen and (min-width: 1200px) {
     a:hover {
-        color: rgb(255, 0, 0);
+        color: rgb(219, 204, 204);
+        }
+        #fondo {
+            background-image: none;
         }
         .lead form {
             margin: 0%;

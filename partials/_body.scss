@@ -3,11 +3,9 @@
 @media screen and (min-width: 320px) { 
     .fondo {
         background-image :url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg); 
-        background-size: contain;
+        background-repeat:no-repeat;
     }
-    .fuente {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    }
+    
     .colorFoo {
         background-image: linear-gradient(to top,rgb(95, 95, 95), rgb(255, 255, 255)); 
         }

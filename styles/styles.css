@@ -13,11 +13,38 @@
 /*destktop view*/
 .tittle {
   background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(87, 96, 110));
-  color: rgb(255, 255, 255);
   padding: 2%;
   margin: 0%;
+  font-family: monospace;
+  font-variant: small-caps;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tittle h1 {
+  color: rgb(255, 255, 255);
 }
 .tittle a:hover {
+  color: rgb(255, 17, 0);
+}
+
+#tittle {
+  background-image: linear-gradient(to top, rgb(39, 39, 39), rgb(87, 96, 110));
+  padding: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: monospace;
+  font-variant: small-caps;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#tittle h1 {
+  color: rgb(255, 255, 255);
+}
+#tittle a:hover {
   color: rgb(255, 17, 0);
 }
 
@@ -25,10 +52,7 @@
 @media screen and (min-width: 320px) {
   .fondo {
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg);
-    background-size: contain;
-  }
-  .fuente {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background-repeat: no-repeat;
   }
   .colorFoo {
     background-image: linear-gradient(to top, rgb(95, 95, 95), rgb(255, 255, 255));
@@ -159,7 +183,10 @@
 /*destktop view*/
 @media screen and (min-width: 1200px) {
   a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(219, 204, 204);
+  }
+  #fondo {
+    background-image: none;
   }
   .lead form {
     margin: 0%;
@@ -428,10 +455,14 @@
   }
 }
 /*mobile view*/
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 320px) {
+  #formContact {
+    margin-top: 0%;
+  }
   .formContact {
     background-image: linear-gradient(to bottom, rgb(95, 95, 95), rgb(255, 255, 255));
     padding-top: 0%;
+    display: block;
     justify-content: center;
   }
   #contactSub {
@@ -462,5 +493,20 @@
   .jus {
     text-align: center;
     justify-content: center;
+  }
+}
+/*desktop view*/
+@media screen and (min-width: 1200px) {
+  .tittle {
+    color: rgb(247, 247, 247);
+  }
+  #formContact {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/984/646/non_2x/grilled-and-barbecue-ribs-pork-isolated-on-white-background-free-photo.jpg);
+    border-radius: 600px;
+  }
+  .formContact {
+    margin-right: auto;
   }
 }/*# sourceMappingURL=styles.css.map */
